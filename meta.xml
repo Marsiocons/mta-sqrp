@@ -1,0 +1,42 @@
+<meta>
+	<oop>true</oop>
+	<info author="Marcio_Skeight" description="Prueba de que sé lo que hago" version="1.5" type="gamemode" />
+
+	<script src="servidor/basics/inicio.lua" type="server"/>
+	<script src="servidor/autenticacion/login.lua" type="server"/>
+	<script src="servidor/autenticacion/registro.lua" type="server"/>
+	<script src="servidor/util/funciones_jugador.lua" type="server"/>
+	<script src="servidor/util/datos_jugador.lua" type="server"/>
+
+	<script src="cliente/login.lua" type="client"/>
+	<script src="cliente/registro.lua" type="client"/>
+	<script src="cliente/render.lua" type="client"/>
+	<script src="cliente/funciones_jugador_cliente.lua" type="client"/>
+
+	<script src="gui/login_gui.lua" type="client"/>
+	<script src="gui/registro_gui.lua" type="client"/>
+	<script src="gui/hud_gui.lua" type="client"/>
+
+	<script src="[desarrollo]Comandos.lua" type="server"/>
+
+	<file src="resources/sounds/blip.mp3"/>
+	<file src="resources/sounds/tump.mp3"/>
+	<file src="resources/sounds/main_theme_b.mp3"/>
+
+	<file src="resources/menF.png"/>
+	<file src="resources/womenF.png"/>
+	<file src="resources/auth.png"/>
+
+	<file src="resources/phone_icons/phoneSQRP.png"/>
+	<file src="resources/phone_icons/maps.png"/>
+	<file src="resources/phone_icons/bank.png"/>
+	<file src="resources/phone_icons/home.png"/>
+	<file src="resources/phone_icons/message.png"/>
+	<file src="resources/phone_icons/phone.png"/>
+
+	<file src="resources/guns_icons/0.png"/>
+	<file src="resources/guns_icons/24.png"/>
+	<file src="resources/guns_icons/31.png"/>
+
+
+</meta>
