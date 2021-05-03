@@ -22,6 +22,7 @@ end
 
 
 
+
 addCommandHandler("coor", obtenerCoordenadas, false, false)
 addCommandHandler("rotation", obtenerCamara, false, false)
 addCommandHandler("veh", createVehicleFast, false, false)
