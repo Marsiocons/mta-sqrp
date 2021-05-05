@@ -50,8 +50,12 @@ end
 
 function playerPressKey(button, press)
     if (press) and (button == "m") then
+        if (getElementData(localPlayer, "show.selector.skin") == "selectorSkinVisible") then return end
+        if (getElementData(localPlayer, "show.character.gui") == "characterVisible") then return end
+        if (getElementData(localPlayer, "show.register.gui") == "registerVisible") then return end
         if (getElementData(localPlayer, "show.login.gui") == "loginVisible") then return end
         if (isChatBoxInputActive()) then return end
+        
         if ( getElementData(localPlayer, "show.phone") == "phoneVisible") then
             setElementData(localPlayer, "show.phone", "phoneNotVisible")
             showCursor(false)
